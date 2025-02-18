@@ -8,7 +8,13 @@
 <body>
 
     <img id="lighton" src="./img/white_lamp.png" style="width: 100px;" srcset="">
-    <button onclick="document.getElementById('lighton').src='./img/yellow_lamp.png'">Accendi</button>
-    
+    <button id="buttonLight">Accendi</button>
+
+    <script>
+        document.getElementById('buttonLight').addEventListener('click', function() {
+            document.getElementById('lighton').src = './img/yellow_lamp.png';
+        });
+    </script>
+
 </body>
 </html>
