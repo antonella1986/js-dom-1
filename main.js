@@ -4,5 +4,5 @@ Al click del bottone, la lampadina dovrà accendersi (dovremo quindi utilizzare 
 let button = document.getElementById("buttonLight");
 
 button.addEventListener("click", function() {
-    document.getElementById("buttonLight").src = './img/yellow_lamp.png';
+    document.getElementById("lighton").src = './img/yellow_lamp.png';
 });
